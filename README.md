@@ -7,8 +7,9 @@ it is capable of copying a single cuboid region across worlds.
 PyChunkCopier requires Python 3 and no additional dependencies.
 
 ### Usage
-Create two directories alongside the script called `source` and `target`. (If unsure which
-files are relevant, [use this page](https://dinnerbone.com/minecraft/tools/coordinates/) or just copy them all.)
+Create two directories alongside the script called `source` and `target`, and copy the appropriate region files into
+them. If unsure which files are relevant, [use this page](https://dinnerbone.com/minecraft/tools/coordinates/) or just
+copy them all. The files may be directly under these directories, or in a `region` sub-directory.
 
 ```
 python copy_chunks.py <x1> <z1> <x2> <z2>
